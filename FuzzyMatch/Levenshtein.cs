@@ -27,7 +27,22 @@ namespace FuzzyMatch
                 return 0;
             }
 
-            return 0;
+            int cost = 0;
+
+            if (s[lenS - 1] == t[lenT - 1])
+            {
+                cost = 0;
+            }
+            else
+            {
+                cost = 1;
+            }
+
+            int a = Distance(s, lenS - 1, t, lenT) + 1;
+            int b = Distance(s, lenS, t, lenT - 1) + 1;
+            int c = Distance(s, lenS - 1, t, lenT - 1) + cost;
+
+            return Math.Min(a, Math.Min(b, c));
         }
     }
 }
