@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace Tests.ApproximateTests.RatingTests
 {
+    [TestFixture]
+    [Category("Approximate")]
     public class WhenFirstAndSecondAreIdentical : WhenTestingTheClass
     {
         protected MatchRatingResponse ReturnValue;
