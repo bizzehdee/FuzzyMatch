@@ -66,6 +66,10 @@
     <Compile Include="ApproximateTests\RatingTests\WhenSecondIsEmpty.cs" />
     <Compile Include="ApproximateTests\RatingTests\WhenFirstIsEmpty.cs" />
     <Compile Include="ApproximateTests\WhenTestingTheClass.cs" />
+    <Compile Include="LevenshteinTests\DistanceTests\WhenCalculatingDistanceForTestWords.cs" />
+    <Compile Include="LevenshteinTests\DistanceTests\WhenFirstIsEmpty.cs" />
+    <Compile Include="LevenshteinTests\DistanceTests\WhenSecondIsEmpty.cs" />
+    <Compile Include="LevenshteinTests\WhenTestingTheClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WhenTestingAClass.cs" />
   </ItemGroup>
