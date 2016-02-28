@@ -71,6 +71,13 @@
     <Compile Include="LevenshteinTests\DistanceTests\WhenSecondIsEmpty.cs" />
     <Compile Include="LevenshteinTests\WhenTestingTheClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SoundexTests\ProcessTests\WhenUsingTestStringAshcroft.cs" />
+    <Compile Include="SoundexTests\ProcessTests\WhenUsingTestStringAshcraft.cs" />
+    <Compile Include="SoundexTests\ProcessTests\WhenUsingTestStringRupert.cs" />
+    <Compile Include="SoundexTests\ProcessTests\WhenUsingTestStringRobert.cs" />
+    <Compile Include="SoundexTests\ProcessTests\WhenStringIsEmpty.cs" />
+    <Compile Include="SoundexTests\ProcessTests\WhenStringIsNull.cs" />
+    <Compile Include="SoundexTests\WhenTestingTheClass.cs" />
     <Compile Include="WhenTestingAClass.cs" />
   </ItemGroup>
   <ItemGroup>
